@@ -14,8 +14,12 @@ public class MyPortfolioApplication {
 		SpringApplication.run(MyPortfolioApplication.class, args);
 	}
 
-	@GetMapping("/resume")
-	public String resume() {
+	@GetMapping("")
+	public String mainResume() {
+		return "Sam_Jones_Resume_2019";
+	}
+	@GetMapping("/revatureResume")
+	public String resumeRevature() {
 		return "Samuel_Jones_54678";
 	}
 }
