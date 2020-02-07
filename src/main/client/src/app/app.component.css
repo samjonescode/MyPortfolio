@@ -1,0 +1,13 @@
+.container-fluid {
+  text-align: center;
+  /* position: relative; */
+}
+/* .col-lg-6 { */
+  /* display: inline-block; */
+  /* margin-top: 100px; */
+/* } */
+img {
+  max-width: 200px;
+  max-height: 200px;
+  display: inline-block;
+}
